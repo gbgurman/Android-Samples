@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Recycler Example</string>
+    <string name="app_name">Swipe To Refresh</string>
     <string name="swipe_to_refresh_this_text">Swipe to refresh this text</string>
 </resources>

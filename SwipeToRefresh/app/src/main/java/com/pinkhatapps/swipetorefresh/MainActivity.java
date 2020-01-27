@@ -1,30 +1,23 @@
-package com.pinkhatapps.recyclerexample;
+package com.pinkhatapps.swipetorefresh;
 
 import androidx.annotation.RawRes;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.os.Bundle;
-import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.squareup.picasso.Picasso;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.lang.reflect.Type;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.List;
+import java.util.Locale;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
@@ -55,12 +48,12 @@ public class MainActivity extends AppCompatActivity {
                 Random random = new Random();
                 int index = random.nextInt(10);
                 Photo item = photos.get(index);
-                tvTitle.setText(item.title);
+                String title = String.format(Locale.getDefault(), "Item #%d : %s", item.id , item.title);
+                tvTitle.setText(title);
                 swipeRefreshLayout.setRefreshing(false);
             }
         });
     }
-
     private String readRawFileIntoString(@RawRes int resourceId) {
         StringBuilder sb = new StringBuilder();
         InputStream is = getResources().openRawResource(resourceId);
