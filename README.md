@@ -21,4 +21,7 @@ Display images using Glide:
 
 https://github.com/gbgurman/Android-Samples/tree/master/DisplayingImages
 
+Share text with other apps by tapping a share button:
+
+https://github.com/gbgurman/Android-Samples/tree/master/ShareButton
 
