@@ -9,4 +9,6 @@ Get data from a Json API with Retrofit:
 
 https://github.com/gbgurman/Android-Samples/tree/master/RetrofitExample
 
-Use SwipeRefreshLayout to update text on swipe gesture
+Use SwipeRefreshLayout to update text on swipe gesture:
+
+https://github.com/gbgurman/Android-Samples/tree/master/SwipeToRefresh
