@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AdBanner</string>
+    <!--
+    Replace this with your ad's Ad Unit ID (banner, insterstitial, etc.)
+    https://developers.google.com/admob/android/test-ads
+    -->
+    <string name="adUnitId">ca-app-pub-3940256099942544/6300978111</string>
+    <!--
+    Replace this with your AdMob App ID (your App's unique AdMob ID)
+    https://developers.google.com/admob/android/quick-start#update_your_androidmanifestxml
+    -->
+    <string name="adMobSampleAppID">ca-app-pub-3940256099942544~3347511713</string>
+</resources>
