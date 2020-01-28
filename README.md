@@ -12,3 +12,9 @@ https://github.com/gbgurman/Android-Samples/tree/master/RetrofitExample
 Use SwipeRefreshLayout to update text on swipe gesture:
 
 https://github.com/gbgurman/Android-Samples/tree/master/SwipeToRefresh
+
+Show an Ad Banner:
+
+https://github.com/gbgurman/Android-Samples/tree/master/AdBanner
+
+
