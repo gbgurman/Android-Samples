@@ -25,8 +25,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getSupportActionBar().setTitle("Displaying Images");
         getSupportActionBar().setSubtitle("with Glide");
-        //getSupportActionBar().setLogo(R.drawable.ic_foreground);
-        //getSupportActionBar().setDisplayUseLogoEnabled(true);
         getSupportActionBar().setIcon(R.mipmap.ic_my_image_asset);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
     }
@@ -42,9 +40,7 @@ public class MainActivity extends AppCompatActivity {
     https://futurestud.io/tutorials/glide-custom-animations-with-animate
     */
     public void RefreshImage(View view) {
-
         String url = String.format("https://picsum.photos/id/%d/200/300", id++);
-
         ImageView imageView = findViewById(R.id.ivBottom);
         Glide.with(view.getContext())
                 .load(url)
