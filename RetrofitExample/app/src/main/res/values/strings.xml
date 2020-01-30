@@ -2,4 +2,5 @@
     <string name="app_name">RetrofitExample</string>
     <string name="see_your_ip_address">Click the button to see your IP address.</string>
     <string name="btn_get_my_ip_address">Get my IP address</string>
+    <string name="refresh">Refresh</string>
 </resources>
