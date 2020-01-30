@@ -12,10 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.pinkhatapps.masterdetail.dummy.DummyContent;
-
 import static com.pinkhatapps.masterdetail.ItemListActivity.getItemById;
-import static com.pinkhatapps.masterdetail.ItemListActivity.items;
 
 public class ItemDetailFragment extends Fragment {
 
